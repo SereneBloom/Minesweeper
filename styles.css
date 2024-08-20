@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+td.mine {
+    background-color: red;
+}
+
+td.flag {
+    background-color: yellow;
+}
+
+td.revealed {
+    background-color: #eee;
+}
+
+#gameInfo {
+    margin-top: 20px;
+}
